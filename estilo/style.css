@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: #00b5ff;
+}
+
+#login {
+    position:relative;
+    width: 313px;
+    height: 381px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+}
+
+#formulario {
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    width: 313px;
+    height: 381px;
+}
+
+#formulario > h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+label {
+    display: none;
+}
+
+#campos {
+    position: absolute;
+    display: inline-block;
+    top: 42%;
+    left: 0%;
+}
+
+#iname, #isenha {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+input {
+    border-style: solid;
+    border-width: 1px;
+}
+
+button {
+    background-color: #00b5ff;
+    display: block;
+    margin: auto;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button > a {
+    color: white;
+    text-decoration: none;
+}
+
